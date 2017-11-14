@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Benjamin/Documents/School/School_Fall_2017/220/220_final_project
+# Install script for directory: /Users/katherine/My Documents/IC Sophomore Year/Data Structures/220_final_project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/Benjamin/Documents/School/School_Fall_2017/220/220_final_project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/katherine/My Documents/IC Sophomore Year/Data Structures/220_final_project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

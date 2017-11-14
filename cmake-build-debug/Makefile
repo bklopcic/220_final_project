@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Benjamin/Documents/School/School_Fall_2017/220/220_final_project
+CMAKE_SOURCE_DIR = "/Users/katherine/My Documents/IC Sophomore Year/Data Structures/220_final_project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Benjamin/Documents/School/School_Fall_2017/220/220_final_project/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/katherine/My Documents/IC Sophomore Year/Data Structures/220_final_project/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Benjamin/Documents/School/School_Fall_2017/220/220_final_project/cmake-build-debug/CMakeFiles /Users/Benjamin/Documents/School/School_Fall_2017/220/220_final_project/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/katherine/My Documents/IC Sophomore Year/Data Structures/220_final_project/cmake-build-debug/CMakeFiles" "/Users/katherine/My Documents/IC Sophomore Year/Data Structures/220_final_project/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Benjamin/Documents/School/School_Fall_2017/220/220_final_project/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/katherine/My Documents/IC Sophomore Year/Data Structures/220_final_project/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
